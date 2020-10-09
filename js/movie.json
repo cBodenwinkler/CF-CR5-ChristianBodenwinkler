@@ -20,7 +20,7 @@ var movies = `[
     {
         "movieName": "Event Horizon",
         "image":"img/event.jpg",
-        "description":"Event Horizon is a 1997 science fiction horror film directed by Paul W. S. Anderson.  It follows a crew of astronauts sent on a rescue mission, after a missing spaceship",
+        "description":"Event Horizon is a 1997 science fiction horror film directed by Paul W. S. Anderson.  It follows a crew of astronauts sent on a rescue mission, after a missing spaceship.",
         "likes":0
     },
     {

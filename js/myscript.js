@@ -1,10 +1,11 @@
-// JSON import and test:
+// JSON import and test-console-table:
 var movieData = JSON.parse(movies);
     // console.table(movieData);
 
 
-// For Loop to implement the data from JSON:
+// For Loop to implement the data from JSON - WITH ATTACHED BOOTSTRAP COMMANDS:
 for (let i = 0; i < movieData.length; i++) {
+    //Creation of the divs, img, p, likebox - Parent div with BOOTSTRAP:
     $("#movieContent").append(`<div id="movie${i}" class="imgPlusText col-lg-6 col-md-12 col-sm-12"></div>`);
         $(`#movie${i}`).html(`
         <div class="borderME">
