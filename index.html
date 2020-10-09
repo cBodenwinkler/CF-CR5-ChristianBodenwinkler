@@ -4,13 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <script
+			  src="https://code.jquery.com/jquery-3.5.1.js"
+			  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+              crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
 
 </head>
 <body>
+    <!-- Header --------------------------------------------------------------------->
     <header>
-        
+        <div id="bannerTop">
+            <h1>Movie Factory</h1>
+        </div>
+        <nav id="navBar">
+            <ul>
+                <li><a href="">Home</a></li>
+            </ul>
+        </nav>
     </header>
+
+
+    <!-- Main Content --------------------------------------------------------------->
+    <div id="mainContent">
+        <!-- Movies Banner + Sort -->
+        <div id="moviesSort">
+            <span id="removeMe"> &#9660; Sort</span>
+            <h2>Movies</h2>
+            <span id="sortButton"> &#9660; Sort</span>
+        </div>
+
+
+        <!-- Content Boxes to push content from JSON to. Layout Bootstrap: -->
+        <div class="container">
+            <!-- Outer DIV with Class for JSON content: -->
+            <div id="movieContent" class="row">
+                <!-- CONTENT FROM JSON COMES HERE -->
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Footer --------------------------------------------------------------------->
+    <footer>
+        <div id="bannerBot">
+            <h1>Movie Factory</h1>
+        </div>
+    </footer>
+
     
+    <!-- Script -------------------------------------------------------------------->
+    <script src="js/movie.json"></script>
+    <script src="js/myscript.js"></script>
 </body>
 </html>
