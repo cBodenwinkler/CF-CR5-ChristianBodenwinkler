@@ -81,7 +81,7 @@ ul {
 #removeMe {
     /* Remove ITEM */
     visibility: hidden;
-    width: auto;
+    width: 7%;
     height: 3rem;
     font-size: 1.3rem;
     padding: 0 0 0 1%;
@@ -90,14 +90,18 @@ ul {
 
 /* Content Boxes */
 .imgPlusText {
-    border: solid white 1px;
+    /* border: solid white 3px; */
     padding: 5%;
+
 }
 
 .borderME {
-    border: solid white 1px;
+    /* border: solid white 1px; */
     display: flex;
-    justify-content: flex-end;
+    background-color: #181818;
+    padding: 5%;
+    border-radius: 25px;
+    height: 300px;
 }
 
 .movieImg {
@@ -105,13 +109,25 @@ ul {
     height: 250px;
 }
 
+.movieName {
+    font-size: 1.3rem;
+    margin: 0 0 50% 0;
+}
+
 .movieDesc {
+    /* border: solid white 1px; */
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    padding-top:5%;
+}
+
+.movieSide {
+    /* border: solid white 1px; */
+    position: relative;
+    padding-left: 30px;
 }
 
 .plus {
-    background-color: green;
     background: none;
     border: none;
     padding: 0;
@@ -120,18 +136,30 @@ ul {
 }
 
 .likeBox {
+    /* border: solid white 1px; */
     float: right;
     font-size: 2rem;
-    
+    position: absolute;
+    bottom:0;
+    right:0;
 }
+
+.likes {
+
+}
+
 
 .movieSide {
     margin: 3%;
 }
 
-
-
-
+#buttonID {
+    background: none;
+    border: none;
+    width: 7%;
+    margin: 0 1% 0 0;
+    color: white;
+}
 
 
 /* ---------------------------------------------------------------------------------------------- */
