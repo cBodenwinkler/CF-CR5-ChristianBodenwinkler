@@ -54,6 +54,7 @@ a {
     background-color: #454545;
     padding: 1% 0 0.5% 3%;
     border-radius: 0 0 20px 20px;
+    border-bottom: 4px solid gray;
 }
 
 #navBar a {
@@ -104,11 +105,13 @@ ul {
 /* Content Boxes */
 .imgPlusText {
     /* border: solid white 3px; */
-    padding: 5%;
+    padding: 3%;
 
 }
 
 .borderME {
+    background: linear-gradient(to right, #000000 40%, #3a3a3a 100%);
+
     -webkit-box-shadow: 13px 13px 52px -25px rgba(252,252,252,1);
     -moz-box-shadow: 13px 13px 52px -25px rgba(252,252,252,1);
     box-shadow: 13px 13px 52px -25px rgba(252,252,252,1);
@@ -197,5 +200,6 @@ footer {
     padding: 2% 0 4% 0;
     text-align: center;
     border-radius: 20px 20px 0 0;
+    border-top: 3px solid gray;
 }
 

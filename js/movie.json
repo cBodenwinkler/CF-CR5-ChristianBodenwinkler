@@ -3,36 +3,48 @@ var movies = `[
         "movieName": "Alien: Covenant",
         "image":"img/covenant.jpg",
         "description":"Alien: Covenant is a 2017 science fiction horror film directed and produced by Ridley Scott. Settlers land on a new planet but there is already something waiting for them.",
-        "likes":0
+        "likes":8
     },
     {
         "movieName": "Blade Runner",
         "image":"img/blade.jpg",
         "description":"Blade Runner is a 1982 science fiction film directed by Ridley Scott, and written by Hampton Fancher and David Peoples. It is placed in a dystopic cyberpunk like future. ",
-        "likes":0
+        "likes":10
     },
     {
         "movieName": "Blade Runner 2049",
         "image":"img/blade2049.jpg",
         "description":"Blade Runner 2049 is a 2017 American science fiction film directed by Denis Villeneuve and written by Hampton Fancher and Michael Green. A sequel to the 1982 film Blade Runner.",
-        "likes":0
+        "likes":6
     },
     {
         "movieName": "Event Horizon",
         "image":"img/event.jpg",
         "description":"Event Horizon is a 1997 science fiction horror film directed by Paul W. S. Anderson.  It follows a crew of astronauts sent on a rescue mission, after a missing spaceship.",
-        "likes":0
+        "likes":8
     },
     {
         "movieName": "The Thin Red Line",
         "image":"img/grat.jpg",
         "description":"The Thin Red Line is a 1998 American epic war film written and directed by Terrence Malick. It is the second screen adaptation of the 1962 novel of the same name by James Jones.",
-        "likes":0
+        "likes":11
     },
     {
         "movieName": "Empire of the Sun",
         "image":"img/sun.jpg",
         "description":"Empire of the Sun is a 1987 American epic coming-of-age war film. It was directed by Steven Spielberg and stars Christian Bale, John Malkovich, Miranda Richardson and Nigel Havers.",
-        "likes":0
+        "likes":7
+    },
+    {
+        "movieName": "American Gangster",
+        "image":"img/gangster.jpg",
+        "description":"American Gangster is a 2007 American biographical crime film directed and produced by Ridley Scott and written by Steven Zaillian.",
+        "likes":15
+    },
+    {
+        "movieName": "1917",
+        "image":"img/1917.jpg",
+        "description":"1917 is a 2019 British war film directed and produced by Sam Mendes, and written by Mendes and Krysty Wilson-Cairns.",
+        "likes":9
     }
 ]`;

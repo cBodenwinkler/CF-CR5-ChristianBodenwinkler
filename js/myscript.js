@@ -31,6 +31,7 @@ $(document).ready(function () {
 
 
 // Code to sort the Movies based on their current likes:
+// Neutral val to compare to:
 var counter = 0;
 
 for (let i = 0; i < movieData.length; i++) {
@@ -41,7 +42,7 @@ for (let i = 0; i < movieData.length; i++) {
         
         // Comparison to other Like Values:
         if (currentLikes > counter) {
-            orderNr = currentLikes * (-1);
+            var orderNr = currentLikes * (-1);
             $(`#movie${i}`).css("order", orderNr);
         }
     });
