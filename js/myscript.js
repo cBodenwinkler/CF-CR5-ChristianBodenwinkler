@@ -43,6 +43,7 @@ for (let i = 0; i < movieData.length; i++) {
         // Comparison to other Like Values:
         if (currentLikes > counter) {
             var orderNr = currentLikes * (-1);
+            // Set order for objects based on current likes:
             $(`#movie${i}`).css("order", orderNr);
         }
     });
